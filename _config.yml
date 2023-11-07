@@ -1,0 +1,28 @@
+title: cybervuln framework
+email: admin@cybervuln.dev
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "cybervuln.dev"
+twitter_username: cybervuln
+github_username: cybervuln
+
+theme: jekyll-theme-console
+
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - index.md
+  - about.md
+  - archive.md
+  - tags.md
+
+style: dark # dark (default), light or hacker
+listen_for_clients_preferred_style: true # false (default) or true
+
+footer: 'follow us on <a href="https://instagram.com/xxx">instagram? </a>'
+
+google_analytics: UA-NNNNNNNN-N
