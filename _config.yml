@@ -9,12 +9,11 @@ url: "cybervuln.dev"
 twitter_username: cybervuln
 github_username: cybervuln
 
-theme: minima
-remote_theme: b2a3e8/jekyll-theme-console
+#remote_theme: b2a3e8/jekyll-theme-console
 
 plugins:
   - jekyll-feed
-  - jekyll-theme-console
+  - jekyll-seo-tag
 
 header_pages:
   - index.md
