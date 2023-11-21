@@ -19,11 +19,10 @@ header_pages:
   - index.md
   - about.md
   - archive.md
-  - tags.md
+  - ctf.md
 
 style: dark # dark (default), light or hacker
 listen_for_clients_preferred_style: true # false (default) or true
 
 footer: 'follow us on <a href="https://instagram.com/xxx">instagram? </a>'
-
 google_analytics: UA-NNNNNNNN-N
