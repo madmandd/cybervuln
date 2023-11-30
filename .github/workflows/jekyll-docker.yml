@@ -16,7 +16,7 @@ jobs:
     
     - name: export secret 
       run: |
-        echo "NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI" > .env
+        export NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
