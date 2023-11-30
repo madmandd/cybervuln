@@ -13,8 +13,9 @@ jobs:
     - uses: actions/checkout@v3
     
     - name: export secret 
-      run: |
-        ENV NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI
+      run: \
+        export NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI \
+        docker run --env NOTION_TOKEN env
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
