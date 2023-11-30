@@ -17,6 +17,11 @@ plugins:
   - jekyll-notion
   - jekyll-toc
 
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 header_pages:
   - index.md
   - about.md
