@@ -14,8 +14,8 @@ jobs:
     
     - name: export secret 
       run: \
-        export NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI \
-        docker run --env NOTION_TOKEN env
+        echo NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI > .env \
+        car .environment
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
