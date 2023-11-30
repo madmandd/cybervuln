@@ -1,9 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.8.5"
+gem "jekyll"
+# "~> 4.3.2"
 #gem "jekyll-theme-console", "~> 0.3.12"
 
-gem "github-pages", "~> 203", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
