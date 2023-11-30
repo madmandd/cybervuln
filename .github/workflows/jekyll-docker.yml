@@ -8,15 +8,13 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     
     - name: export secret 
       run: |
-        export NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI
+        ENV NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
