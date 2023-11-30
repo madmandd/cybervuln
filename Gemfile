@@ -5,10 +5,9 @@ gem "jekyll", "~> 4.3.2"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem 'jekyll-seo-tag'
-  gem "jekyll-notion"
-  gem 'jekyll-toc'
-  gem "jekyll-gist", "~>1.5.0"
+  gem 'jekyll-seo-tag', "~> 2.8.0"
+  gem "jekyll-notion", "~> 2.4.1"
+  gem 'jekyll-toc', "~> 0.18"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

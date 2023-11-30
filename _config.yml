@@ -11,15 +11,11 @@ github_username: cybervuln
 
 #remote_theme: b2a3e8/jekyll-theme-console
 
-sass:
-  sass_dir: _sass
-  style: compressed
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-notion
-  - jekyll-gist
   - jekyll-toc
 
 header_pages:
