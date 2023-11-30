@@ -11,9 +11,16 @@ github_username: cybervuln
 
 #remote_theme: b2a3e8/jekyll-theme-console
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-notion
+  - jekyll-gist
+  - jekyll-toc
 
 header_pages:
   - index.md
@@ -26,3 +33,33 @@ listen_for_clients_preferred_style: true # false (default) or true
 
 footer: 'follow us on <a href="https://instagram.com/xxx">instagram? </a>'
 google_analytics: UA-NNNNNNNN-N
+
+NOTION_TOKEN: NOTION_TOKEN
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      toc: true
+  # -
+  #   scope:
+  #     path: ""
+  #     type: gists
+  #   values:
+  #     layout: gist
+
+collections:
+  gists:
+    output: true
+    
+notion:
+  fetch_on_watch: true
+  cache: false
+  databases:
+    - id: 63dbdd02b59546c7a4906c9ad2243fd4
+      collections: posts
+      filter: { "property": "Published", "checkbox": { "equals": true } }
+      sorts: [{ "timestamp": "created_time", "direction": "ascending" }]
+
