@@ -4,13 +4,12 @@ description: >-
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/cybervulns"
+# baseurl: "/cybervulns"
 url: "cybervuln.dev"
 twitter_username: cybervuln
 github_username: cybervuln
 
 # remote_theme: b2a3e8/jekyll-theme-console
-
 
 plugins:
   - jekyll-feed
@@ -46,9 +45,6 @@ defaults:
   #   values:
   #     layout: gist
 
-collections:
-  gists:
-    output: true
     
 notion:
   fetch_on_watch: true
