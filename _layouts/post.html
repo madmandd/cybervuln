@@ -4,8 +4,6 @@ toc: true
 ---
 
 <div class="post-content">
-  <div><p>{{ content }}</p></div>
-  <div class="toc">
-    <p>{{ content | toc_only }}</p>
-  </div>
+  <div class="toc">{{ content | toc_only }}</div>
+  <div>{{ content | inject_anchors }}</div>
 </div>
