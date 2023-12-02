@@ -17,9 +17,9 @@ plugins:
 
 header_pages:
   - index.md
-  - v1/about.md
-  - v1/archive.md
-  - v1/ctf.md
+  - about.md
+  - /v1/archive.md
+  - /v1/ctf.md
 
 defaults:
   -
