@@ -22,8 +22,7 @@ header_pages:
   - /v1/ctf.md
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: posts
     values:

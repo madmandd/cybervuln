@@ -1,9 +1,8 @@
 ---
 layout: default
-toc: true
 ---
 
 <div class="post-content">
-  <div class="toc">{{ content | toc_only }}</div>
-  <div>{{ content | inject_anchors }}</div>
+  <div class="toc">{% toc %}</div>
+  <div>{{ content }}</div>
 </div>
