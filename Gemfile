@@ -2,13 +2,12 @@
 
 source "https://rubygems.org"
 gemspec
-
+gem "jekyll-notion"
+gem 'jekyll-toc'
 
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.12"
     gem 'jekyll-seo-tag'
-    gem "jekyll-notion"
-    gem 'jekyll-toc'
 end
 
 
