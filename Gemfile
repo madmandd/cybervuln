@@ -2,14 +2,14 @@
 
 source "https://rubygems.org"
 gemspec
-gem "jekyll-notion"
-gem 'jekyll-toc'
 
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.12"
-    gem 'jekyll-seo-tag'
+    gem "jekyll-seo-tag"
 end
 
+gem "jekyll-notion"
+gem "jekyll-toc"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
