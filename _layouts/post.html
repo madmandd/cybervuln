@@ -1,11 +1,10 @@
 ---
 layout: default
-toc: true
 ---
 
-Reading time: {% include reading_time.html %}
+{% include reading_time.html %}
 
 <div class="post-content">
-  <div id="table-of-contents">{{ content | toc_only }}</div>
   <div>{{ content  }}</div>
+  <div class="table-of-contents">{{ content | toc_only }}</div>
 </div>

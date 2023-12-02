@@ -411,3 +411,23 @@ pre {
 .highlight .il {
     color: var(--code-color-14);
 } /* Literal.Number.Integer.Long */
+
+
+.post-content {
+    display: grid;
+    grid-template-columns: auto max-content;
+    grid-template-rows: auto;
+    gap: 1rem;
+
+    .table-of-contents {
+        font-style: normal;
+        color: var(--code-color-3);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .post-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
