@@ -1,20 +1,22 @@
-.post-content {
-    display: grid;
-    grid-template-columns: auto max-content;
-    grid-template-rows: auto;
-    gap: 1rem;
+// .post-content {
+//     display: grid;
+//     grid-template-columns: auto max-content;
+//     grid-template-rows: auto;
+//     gap: 1rem;
 
-    .toc {
-        font-style: normal;
-        color: var(--code-color-3);
-    }
-}
-@media only screen and (max-width: 400px) {
-    .post-content {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    // .toc {
-    //     display: none;
-    // }
-}
+//     .toc {
+//         font-style: normal;
+//         color: var(--code-color-3);
+//     }
+// }
+// @media only screen and (max-width: 400px) {
+//     .post-content {
+//         display: flex;
+//         flex-direction: column-reverse;
+//     }
+// }
+
+
+// <!-- <div class="toc">
+//     <p>{% toc %}</p>
+//   </div> -->
