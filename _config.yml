@@ -24,6 +24,7 @@ header_pages:
 defaults:
   - scope:
       path: ""
+      type: post
     values:
       layout: post
       toc: true
