@@ -9,17 +9,10 @@ url: "cybervuln.dev"
 twitter_username: cybervuln
 github_username: cybervuln
 
-# remote_theme: b2a3e8/jekyll-theme-console
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  # - jekyll-notion
-
-
-sass:
-  sass_dir: _sass
-  style: compressed
+  - jekyll-notion
 
 header_pages:
   - index.md
@@ -33,28 +26,21 @@ listen_for_clients_preferred_style: true # false (default) or true
 footer: 'follow us on <a href="https://instagram.com/xxx">instagram? </a>'
 google_analytics: UA-NNNNNNNN-N
 
-# NOTION_TOKEN: secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI
-# defaults:
-#   -
-#     scope:
-#       path: ""
-#       type: posts
-#     values:
-#       layout: post
-  # -
-  #   scope:
-  #     path: ""
-  #     type: gists
-  #   values:
-  #     layout: gist
+NOTION_TOKEN: secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
 
-    
-# notion:
-#   fetch_on_watch: true
-#   cache: false
-#   databases:
-#     - id: 63dbdd02b59546c7a4906c9ad2243fd4
-#       collections: posts
-#       filter: { "property": "Published", "checkbox": { "equals": true } }
-#       sorts: [{ "timestamp": "created_time", "direction": "ascending" }]
 
+notion:
+  fetch_on_watch: true
+  cache: false
+  databases:
+    - id: 63dbdd02b59546c7a4906c9ad2243fd4
+      collections: posts
+      filter: { "property": "Published", "checkbox": { "equals": true } }
+      sorts: [{ "timestamp": "created_time", "direction": "ascending" }]

@@ -1,10 +1,9 @@
 ---
-title: cybervulns
+title: /
 layout: home
 permalink: /
 ---
 
-**CYBERVULNS** _is a cutting-edge project that focuses on identifying and addressing vulnerabilities in the cyber world. Our team of experts diligently conducts research and analysis to uncover potential weaknesses in various systems and networks. Through our findings, we aim to enhance cybersecurity measures and protect individuals and organizations from potential threats.
-sssss
+# Lorem ipsum
 
-dafafa
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
