@@ -42,7 +42,7 @@ defaults:
       type: posts
     values:
       layout: post
-      toc: true
+      # toc: true
   # -
   #   scope:
   #     path: ""
