@@ -5,6 +5,7 @@ layout: default
 {% include reading_time.html %}
 
 <div class="post-content">
-  <div>{{ content  }}</div>
-  <div class="table-of-contents">{%- toc -%}</div>
+  <div>{{ content }}</div>
+  <div class="table-of-contents"> {% include toc.html html=content %}</div>
 </div>
+
