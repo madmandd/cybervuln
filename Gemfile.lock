@@ -75,6 +75,8 @@ GEM
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
+    jekyll-timeago (0.15.0)
+      mini_i18n (>= 0.8.0)
     jekyll-toc (0.18.0)
       jekyll (>= 3.9)
       nokogiri (~> 1.12)
@@ -89,6 +91,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
+    mini_i18n (0.9.0)
     minitest (5.20.0)
     multipart-post (2.3.0)
     mutex_m (0.2.0)
@@ -134,6 +137,7 @@ DEPENDENCIES
   jekyll-notion
   jekyll-seo-tag
   jekyll-theme-console!
+  jekyll-timeago
   jekyll-toc
   rake
   tzinfo (>= 1, < 3)

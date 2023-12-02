@@ -9,6 +9,7 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem "jekyll-notion"
     gem 'jekyll-toc'
+    gem 'jekyll-timeago'
 end
 
 
