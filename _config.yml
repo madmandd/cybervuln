@@ -25,6 +25,7 @@ defaults:
   - scope:
       path: ""
     values:
+      layout: post
       toc: true
 
 
