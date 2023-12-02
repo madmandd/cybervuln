@@ -15,7 +15,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-notion
-  - jekyll-toc
+  # - jekyll-toc
 
 
 sass:
