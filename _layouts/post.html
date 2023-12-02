@@ -1,8 +1,9 @@
 ---
 layout: default
+toc: true
 ---
 
-
+{% include reading_time.html %}
 <div>
   <span class="reading-time" title="Estimated read time">
     {%- assign words = content | number_of_words -%} {%- if words < 360 -%} 1min
