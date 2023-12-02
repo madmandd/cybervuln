@@ -3,4 +3,9 @@ layout: default
 toc: true
 ---
 
-{{ content | toc}}
+<div class="post-content">
+  <div>{{content }}</div>
+  <div class="toc">
+    <p>{% toc %}</p>
+  </div>
+</div>

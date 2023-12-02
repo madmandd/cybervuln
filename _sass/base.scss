@@ -113,7 +113,7 @@ footer {
     list-style-type: none;
 }
 :not(.menu) > ul > li:before {
-    content: "";
+    content: " ";
     margin-right: 9px;
 }
 
