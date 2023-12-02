@@ -4,8 +4,8 @@ toc: true
 ---
 
 <div class="post-content">
-  <div>{{content }}</div>
+  <div><p>{{ content }}</p></div>
   <div class="toc">
-    <p>{{ toc_only }}</p>
+    <p>{{ content | toc_only }}</p>
   </div>
 </div>
