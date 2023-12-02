@@ -17,15 +17,9 @@ plugins:
 
 header_pages:
   - index.md
-  - about.md
-  - archive.md
-  - ctf.md
-
-style: dark # dark (default), light or hacker
-listen_for_clients_preferred_style: true # false (default) or true
-
-footer: 'follow us on <a href="https://instagram.com/xxx">instagram? </a>'
-google_analytics: UA-NNNNNNNN-N
+  - v1/about.md
+  - v1/archive.md
+  - v1/ctf.md
 
 defaults:
   -
@@ -45,3 +39,11 @@ notion:
       collections: posts
       filter: { "property": "Published", "checkbox": { "equals": true } }
       sorts: [{ "timestamp": "created_time", "direction": "ascending" }]
+
+
+style: dark # dark (default), light or hacker
+listen_for_clients_preferred_style: true # false (default) or true
+
+footer: 'follow us on <a href="https://instagram.com/xxx">instagram? </a>'
+google_analytics: UA-NNNNNNNN-N
+
