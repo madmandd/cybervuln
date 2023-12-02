@@ -13,6 +13,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-notion
+  - jekyll-toc
 
 header_pages:
   - index.md
@@ -26,7 +27,6 @@ listen_for_clients_preferred_style: true # false (default) or true
 footer: 'follow us on <a href="https://instagram.com/xxx">instagram? </a>'
 google_analytics: UA-NNNNNNNN-N
 
-NOTION_TOKEN: secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI
 defaults:
   -
     scope:
@@ -34,6 +34,7 @@ defaults:
       type: posts
     values:
       layout: post
+      toc: true
 
 
 notion:
