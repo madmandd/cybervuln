@@ -27,7 +27,7 @@ jobs:
     steps:
     - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
     - name: Run NOTION_TOKEN
-      run: NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI bundle exec rspec
+      run: export NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
