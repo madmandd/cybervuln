@@ -26,13 +26,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+    - name: Run NOTION_TOKEN
+      run: NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI bundle exec rspec
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    - name: Run NOTION_TOKEN
-      run: NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI bundle exec rspec
     - name: Archive code coverage results
       uses: actions/upload-artifact@v3
       with:
