@@ -4,6 +4,25 @@ layout: home
 permalink: /
 ---
 
-# Lorem ipsum
+![mr robot]({{site.baseurl}}/assets/imgs/mr_robot_3.jpeg){: width="100%" align="center" }
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# BIO
+
+A tangible ghost who loves to explore, self-study and research psychology, human behavior and cyber technology. I seem to only exist to observe, listen, and empathize with all surrounding phenomena.
+
+Wanting to contribute quietly and conquer people's fears as well as achieve professional education.
+
+# GOALS
+| "The quieter you become, the more you are able to hear." - Kali Linux
+
+
+|------------|------------|------------|------------|------------|------------|
+|-> TRY HARDER |-> AIM BIGGER |
+|------------|------------|------------|------------|------------|------------|
+
+
+# INSPIRED BY
+
+:-----------------:|:-----------------:|
+![mr robot]({{site.baseurl}}/assets/imgs/mr_robot_1.png){: width="250" } | ![mr robot]({{site.baseurl}}/assets/imgs/mr_robot_2.png){: width="250" }
+
