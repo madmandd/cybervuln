@@ -11,7 +11,7 @@ group :jekyll_plugins do
     gem 'rspec-core'
     gem "jekyll-notion", "~> 2.4.1"
 end
-
+gem 'sass-embedded', '~> 1.69', '>= 1.69.5'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
