@@ -156,7 +156,7 @@ DEPENDENCIES
   jekyll-theme-console!
   rake
   rspec-core
-  rubygems-update (~> 3.3, >= 3.3.22)
+  rubygems-update (~> 3.4, >= 3.4.22)
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)
