@@ -8,7 +8,7 @@ group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.12"
     gem "jekyll-seo-tag"
     gem 'rspec-core'
-    gem "jekyll-notion"
+    gem "jekyll-notion", "~> 2.4.1"
 end
 
 gem 'rubygems-update', '~> 3.3', '>= 3.3.22'
