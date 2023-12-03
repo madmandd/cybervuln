@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 gemspec
+gem "jekyll", "~> 4.1.1"
 
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.12"
@@ -9,6 +10,7 @@ group :jekyll_plugins do
     gem 'rspec-core'
     gem "jekyll-notion"
 end
+
 
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
