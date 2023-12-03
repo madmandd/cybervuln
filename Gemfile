@@ -11,7 +11,7 @@ group :jekyll_plugins do
     gem "jekyll-notion"
 end
 
-
+gem 'rubygems-update', '~> 3.3', '>= 3.3.22'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
