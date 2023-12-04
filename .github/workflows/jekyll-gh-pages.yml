@@ -37,6 +37,12 @@ jobs:
       #   with:
       #     source: ./
       #     destination: ./_site
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
       - name: Set up Jekyll
         run: gem install bundler && bundle install
       - name: Build site
