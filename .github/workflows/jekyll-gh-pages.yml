@@ -38,7 +38,7 @@ jobs:
           source: ./
           destination: ./_site
       - name: Build Jekyll-Notion
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: jekyll build --future
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
