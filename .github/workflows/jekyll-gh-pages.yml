@@ -32,11 +32,11 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Run NOTION_TOKEN
         run: echo "NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI" >> $GITHUB_ENV
-      - name: Run NOTION_TOKEN
-        uses: myci-actions/export-env-var@<version>
-        with:
-          name: NOTION_TOKEN
-          value: secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI
+      # - name: Run NOTION_TOKEN
+      #   uses: myci-actions/export-env-var@<version>
+      #   with:
+      #     name: NOTION_TOKEN
+      #     value: secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI
       # - name: Build with Jekyll
       #   uses: actions/jekyll-build-pages@v1
       #   with:
