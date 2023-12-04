@@ -33,11 +33,12 @@ jobs:
       - name: Run NOTION_TOKEN
         run: export NOTION_TOKEN=secret_jaLIqA9uQ8wL08XFUz5IdcZuNtU7EhojV44Xrqb7ViI
       - name: Build with Jekyll
-        # uses: actions/jekyll-build-pages@v1
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Build Jekyll-Notion
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        # with:
-        #   source: ./
-        #   destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
