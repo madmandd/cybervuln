@@ -37,8 +37,6 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Build Jekyll-Notion
-        run: jekyll build --future
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
