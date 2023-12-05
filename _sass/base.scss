@@ -215,17 +215,23 @@ textarea {
 figure.highlight {
     margin: 5px 0;
 }
+
 pre {
     background-color: var(--background-color);
-    border: none;
-    padding: 0;
-    margin: 0;
+    position: relative;
+    // border: none;
+    border: 1px solid #292929;
+    border-radius: 4px;
+    padding: 5px;
+    // margin: 0;
+    margin: 10px 15px;
     overflow: auto;
     font-size: $base-font-size;
     color: var(--text-color);
-    line-height: 1.7 !important;
+    line-height: 1.9 !important;
     font-family: $base-font-family !important;
 }
+
 .highlight .hll {
     background-color: var(--code-color-2);
 }
@@ -424,11 +430,22 @@ pre {
         color: var(--code-color-3);
         margin-right: -4rem;
     }
+
+    img { 
+        width: 100%;
+        border-radius: 16px;
+
+        
+    }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 625px) {
     .post-content {
         display: flex;
         flex-direction: column-reverse;
+        
+    }
+    .table-of-contents ,ul, li {
+            width: 100%;
     }
 }

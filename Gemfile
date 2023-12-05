@@ -10,6 +10,7 @@ group :jekyll_plugins do
     gem "jekyll-seo-tag"
     gem 'rspec-core'
     gem "jekyll-notion", "~> 2.4.1"
+    gem 'jekyll-content-security-policy-generator'
 end
 gem 'sass-embedded', '~> 1.69', '>= 1.69.5'
 

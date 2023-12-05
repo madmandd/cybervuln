@@ -25,6 +25,7 @@ GEM
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
+    digest (3.1.1)
     drb (2.2.0)
       ruby2_keywords
     em-websocket (0.5.3)
@@ -64,6 +65,10 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-content-security-policy-generator (1.6.15)
+      digest
+      jekyll
+      nokogiri
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-notion (2.4.1)
@@ -89,6 +94,8 @@ GEM
     minitest (5.20.0)
     multipart-post (2.3.0)
     mutex_m (0.2.0)
+    nokogiri (1.15.5-x86_64-darwin)
+      racc (~> 1.4)
     notion-ruby-client (1.2.2)
       faraday (>= 2.0)
       faraday-mashify (>= 0.1.1)
@@ -100,6 +107,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.4)
+    racc (1.7.3)
     rake (13.1.0)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
@@ -129,6 +137,7 @@ DEPENDENCIES
   bundler
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.2)
+  jekyll-content-security-policy-generator
   jekyll-feed (~> 0.12)
   jekyll-notion (~> 2.4.1)
   jekyll-seo-tag
