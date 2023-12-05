@@ -5,8 +5,8 @@
  * Style variables
  */
 $base-font-family: "Source Code Pro", monospace !default;
-$base-font-size: 12.5px !default;
-$mobile-font-size: 12px !default;
+$base-font-size: 13px !default;
+$mobile-font-size: 11px !default;
 $base-line-height: 1.5 !default;
 $container-width: 90% !default;
 $container-max-width: 600px !default;
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: $base-font-size;
+    font-size: $base-font-size + 8px;
     margin: 0px;
     margin-top: 22px;
     font-weight: bold;
@@ -421,15 +421,17 @@ pre {
 
 .post-content {
     width: 100%;
-    display: grid;
-    grid-template-columns: auto max-content;
-    grid-template-rows: auto;
-    gap: 1rem;
+    // display: grid;
+    // grid-template-columns: auto max-content;
+    // grid-template-rows: auto;
+    // gap: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
 
     .table-of-contents {
         font-style: normal;
         color: var(--code-color-3);
-        margin-right: -4rem;
+        margin-right: -1rem;
     }
 
     img { 
@@ -444,7 +446,6 @@ pre {
     .post-content {
         display: flex;
         flex-direction: column-reverse;
-        
     }
     .table-of-contents ,ul, li {
             width: 100%;
